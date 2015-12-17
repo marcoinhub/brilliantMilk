@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDB05B501C22C93D00F7387C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB05B4F1C22C93D00F7387C /* main.m */; };
+		CDB05B531C22C93D00F7387C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB05B521C22C93D00F7387C /* AppDelegate.m */; };
+		CDB05B561C22C93D00F7387C /* brilliantMilk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDB05B541C22C93D00F7387C /* brilliantMilk.xcdatamodeld */; };
+		CDB05B591C22C93D00F7387C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB05B581C22C93D00F7387C /* ViewController.m */; };
+		CDB05B5C1C22C93D00F7387C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB05B5A1C22C93D00F7387C /* Main.storyboard */; };
+		CDB05B5E1C22C93D00F7387C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB05B5D1C22C93D00F7387C /* Images.xcassets */; };
+		CDB05B611C22C93D00F7387C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDB05B5F1C22C93D00F7387C /* LaunchScreen.xib */; };
+		CDB05B6D1C22C93D00F7387C /* brilliantMilkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB05B6C1C22C93D00F7387C /* brilliantMilkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDB05B671C22C93D00F7387C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB05B421C22C93D00F7387C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB05B491C22C93D00F7387C;
+			remoteInfo = brilliantMilk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDB05B4A1C22C93D00F7387C /* brilliantMilk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brilliantMilk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB05B4E1C22C93D00F7387C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB05B4F1C22C93D00F7387C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDB05B511C22C93D00F7387C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDB05B521C22C93D00F7387C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDB05B551C22C93D00F7387C /* brilliantMilk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = brilliantMilk.xcdatamodel; sourceTree = "<group>"; };
+		CDB05B571C22C93D00F7387C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDB05B581C22C93D00F7387C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDB05B5B1C22C93D00F7387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDB05B5D1C22C93D00F7387C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDB05B601C22C93D00F7387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CDB05B661C22C93D00F7387C /* brilliantMilkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brilliantMilkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB05B6B1C22C93D00F7387C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB05B6C1C22C93D00F7387C /* brilliantMilkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = brilliantMilkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB05B471C22C93D00F7387C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB05B631C22C93D00F7387C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDB05B411C22C93D00F7387C = {
+			isa = PBXGroup;
+			children = (
+				CDB05B4C1C22C93D00F7387C /* brilliantMilk */,
+				CDB05B691C22C93D00F7387C /* brilliantMilkTests */,
+				CDB05B4B1C22C93D00F7387C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB05B4B1C22C93D00F7387C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB05B4A1C22C93D00F7387C /* brilliantMilk.app */,
+				CDB05B661C22C93D00F7387C /* brilliantMilkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB05B4C1C22C93D00F7387C /* brilliantMilk */ = {
+			isa = PBXGroup;
+			children = (
+				CDB05B511C22C93D00F7387C /* AppDelegate.h */,
+				CDB05B521C22C93D00F7387C /* AppDelegate.m */,
+				CDB05B571C22C93D00F7387C /* ViewController.h */,
+				CDB05B581C22C93D00F7387C /* ViewController.m */,
+				CDB05B5A1C22C93D00F7387C /* Main.storyboard */,
+				CDB05B5D1C22C93D00F7387C /* Images.xcassets */,
+				CDB05B5F1C22C93D00F7387C /* LaunchScreen.xib */,
+				CDB05B541C22C93D00F7387C /* brilliantMilk.xcdatamodeld */,
+				CDB05B4D1C22C93D00F7387C /* Supporting Files */,
+			);
+			path = brilliantMilk;
+			sourceTree = "<group>";
+		};
+		CDB05B4D1C22C93D00F7387C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDB05B4E1C22C93D00F7387C /* Info.plist */,
+				CDB05B4F1C22C93D00F7387C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDB05B691C22C93D00F7387C /* brilliantMilkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB05B6C1C22C93D00F7387C /* brilliantMilkTests.m */,
+				CDB05B6A1C22C93D00F7387C /* Supporting Files */,
+			);
+			path = brilliantMilkTests;
+			sourceTree = "<group>";
+		};
+		CDB05B6A1C22C93D00F7387C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDB05B6B1C22C93D00F7387C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB05B491C22C93D00F7387C /* brilliantMilk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB05B701C22C93D00F7387C /* Build configuration list for PBXNativeTarget "brilliantMilk" */;
+			buildPhases = (
+				CDB05B461C22C93D00F7387C /* Sources */,
+				CDB05B471C22C93D00F7387C /* Frameworks */,
+				CDB05B481C22C93D00F7387C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brilliantMilk;
+			productName = brilliantMilk;
+			productReference = CDB05B4A1C22C93D00F7387C /* brilliantMilk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDB05B651C22C93D00F7387C /* brilliantMilkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB05B731C22C93D00F7387C /* Build configuration list for PBXNativeTarget "brilliantMilkTests" */;
+			buildPhases = (
+				CDB05B621C22C93D00F7387C /* Sources */,
+				CDB05B631C22C93D00F7387C /* Frameworks */,
+				CDB05B641C22C93D00F7387C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB05B681C22C93D00F7387C /* PBXTargetDependency */,
+			);
+			name = brilliantMilkTests;
+			productName = brilliantMilkTests;
+			productReference = CDB05B661C22C93D00F7387C /* brilliantMilkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB05B421C22C93D00F7387C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "高昭鹏";
+				TargetAttributes = {
+					CDB05B491C22C93D00F7387C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CDB05B651C22C93D00F7387C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CDB05B491C22C93D00F7387C;
+					};
+				};
+			};
+			buildConfigurationList = CDB05B451C22C93D00F7387C /* Build configuration list for PBXProject "brilliantMilk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB05B411C22C93D00F7387C;
+			productRefGroup = CDB05B4B1C22C93D00F7387C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB05B491C22C93D00F7387C /* brilliantMilk */,
+				CDB05B651C22C93D00F7387C /* brilliantMilkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB05B481C22C93D00F7387C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB05B5C1C22C93D00F7387C /* Main.storyboard in Resources */,
+				CDB05B611C22C93D00F7387C /* LaunchScreen.xib in Resources */,
+				CDB05B5E1C22C93D00F7387C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB05B641C22C93D00F7387C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB05B461C22C93D00F7387C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB05B531C22C93D00F7387C /* AppDelegate.m in Sources */,
+				CDB05B501C22C93D00F7387C /* main.m in Sources */,
+				CDB05B591C22C93D00F7387C /* ViewController.m in Sources */,
+				CDB05B561C22C93D00F7387C /* brilliantMilk.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB05B621C22C93D00F7387C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB05B6D1C22C93D00F7387C /* brilliantMilkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDB05B681C22C93D00F7387C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB05B491C22C93D00F7387C /* brilliantMilk */;
+			targetProxy = CDB05B671C22C93D00F7387C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDB05B5A1C22C93D00F7387C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB05B5B1C22C93D00F7387C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDB05B5F1C22C93D00F7387C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB05B601C22C93D00F7387C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDB05B6E1C22C93D00F7387C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDB05B6F1C22C93D00F7387C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB05B711C22C93D00F7387C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = brilliantMilk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDB05B721C22C93D00F7387C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = brilliantMilk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDB05B741C22C93D00F7387C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = brilliantMilkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brilliantMilk.app/brilliantMilk";
+			};
+			name = Debug;
+		};
+		CDB05B751C22C93D00F7387C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = brilliantMilkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brilliantMilk.app/brilliantMilk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB05B451C22C93D00F7387C /* Build configuration list for PBXProject "brilliantMilk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB05B6E1C22C93D00F7387C /* Debug */,
+				CDB05B6F1C22C93D00F7387C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB05B701C22C93D00F7387C /* Build configuration list for PBXNativeTarget "brilliantMilk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB05B711C22C93D00F7387C /* Debug */,
+				CDB05B721C22C93D00F7387C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDB05B731C22C93D00F7387C /* Build configuration list for PBXNativeTarget "brilliantMilkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB05B741C22C93D00F7387C /* Debug */,
+				CDB05B751C22C93D00F7387C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDB05B541C22C93D00F7387C /* brilliantMilk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDB05B551C22C93D00F7387C /* brilliantMilk.xcdatamodel */,
+			);
+			currentVersion = CDB05B551C22C93D00F7387C /* brilliantMilk.xcdatamodel */;
+			path = brilliantMilk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDB05B421C22C93D00F7387C /* Project object */;
+}
