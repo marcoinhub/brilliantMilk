@@ -15,7 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [NSTimer scheduledTimerWithTimeInterval:5. target:self selector:@selector(poptoCheckView:) userInfo:nil repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(poptoCheckView:) userInfo:nil repeats:NO];
     // Do any additional setup after loading the view from its nib.
 }
 -(void)poptoCheckView:(NSTimer*)timer{

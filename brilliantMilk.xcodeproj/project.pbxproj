@@ -12,7 +12,7 @@
 		CD78D8061C2641A700920DB4 /* update04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD78D8031C2641A700920DB4 /* update04.jpg */; };
 		CD78D8071C2641A700920DB4 /* update05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD78D8041C2641A700920DB4 /* update05.jpg */; };
 		CD78D8091C26429700920DB4 /* update01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD78D8081C26429700920DB4 /* update01.jpg */; };
-		CD78D80B1C2646E500920DB4 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD78D80A1C2646E500920DB4 /* welcome.jpg */; };
+		CD78D80D1C26871A00920DB4 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD78D80C1C26871A00920DB4 /* welcome.jpg */; };
 		CDB05B501C22C93D00F7387C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB05B4F1C22C93D00F7387C /* main.m */; };
 		CDB05B531C22C93D00F7387C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB05B521C22C93D00F7387C /* AppDelegate.m */; };
 		CDB05B561C22C93D00F7387C /* brilliantMilk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDB05B541C22C93D00F7387C /* brilliantMilk.xcdatamodeld */; };
@@ -62,7 +62,7 @@
 		CD78D8031C2641A700920DB4 /* update04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = update04.jpg; sourceTree = "<group>"; };
 		CD78D8041C2641A700920DB4 /* update05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = update05.jpg; sourceTree = "<group>"; };
 		CD78D8081C26429700920DB4 /* update01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = update01.jpg; sourceTree = "<group>"; };
-		CD78D80A1C2646E500920DB4 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome.jpg; sourceTree = "<group>"; };
+		CD78D80C1C26871A00920DB4 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome.jpg; sourceTree = "<group>"; };
 		CDB05B4A1C22C93D00F7387C /* brilliantMilk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brilliantMilk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB05B4E1C22C93D00F7387C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDB05B4F1C22C93D00F7387C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -267,10 +267,10 @@
 				CD78D7FF1C26419700920DB4 /* update02.jpg */,
 				CDB05BBF1C23024300F7387C /* my.jpg */,
 				CDB05BC11C23024B00F7387C /* shoping.jpg */,
-				CD78D80A1C2646E500920DB4 /* welcome.jpg */,
 				CDB05BCB1C230B3600F7387C /* barItemSelected.jpg */,
 				CDB05BCD1C230E7200F7387C /* barSelected.png */,
 				CDB05BAB1C22EB1300F7387C /* navigationBar.jpg */,
+				CD78D80C1C26871A00920DB4 /* welcome.jpg */,
 				CDB05BCF1C23120F00F7387C /* search.png */,
 				CDB05BAD1C22EBF400F7387C /* tabBar.jpg */,
 			);
@@ -396,7 +396,7 @@
 				CD78D8061C2641A700920DB4 /* update04.jpg in Resources */,
 				CDB05BD81C2333D700F7387C /* loginViewController.xib in Resources */,
 				CD78D8071C2641A700920DB4 /* update05.jpg in Resources */,
-				CD78D80B1C2646E500920DB4 /* welcome.jpg in Resources */,
+				CD78D80D1C26871A00920DB4 /* welcome.jpg in Resources */,
 				CD78D8051C2641A700920DB4 /* update03.jpg in Resources */,
 				CDB05BDD1C23BAC200F7387C /* icon01.png in Resources */,
 				CDB05B851C22CA3100F7387C /* goodsTableViewController.xib in Resources */,
