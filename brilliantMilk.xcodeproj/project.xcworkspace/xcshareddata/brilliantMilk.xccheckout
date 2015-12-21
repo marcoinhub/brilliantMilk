@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>02580FD1-EA6F-47D5-B69C-3DE2D28B0523</string>
 	<key>IDESourceControlProjectName</key>
-	<string>brilliantMilk</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E780A88ADA249468BAA61E45111F9AD861BD7091</key>
 		<string>https://github.com/marcoinhub/brilliantMilk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>brilliantMilk.xcodeproj</string>
+	<string>brilliantMilk.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E780A88ADA249468BAA61E45111F9AD861BD7091</key>

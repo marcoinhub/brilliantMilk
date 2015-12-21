@@ -15,6 +15,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIImageView* imagev=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height)];
+    imagev.image=[UIImage imageNamed:@"welcome.jpg"];
+    [self.view addSubview:imagev];
     [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(poptoCheckView:) userInfo:nil repeats:NO];
     // Do any additional setup after loading the view from its nib.
 }
